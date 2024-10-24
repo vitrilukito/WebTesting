@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stepDef.CucumberTest" tests="50" skipped="0" failures="0" errors="0" timestamp="2024-10-22T11:43:02" hostname="SISs-MacBook-Air.local" time="319.341">
+  <properties/>
+  <testcase name="Test the Remove button functionality" classname="stepDef.CucumberTest" time="7.394"/>
+  <testcase name="Test the Continue Shopping button functionality" classname="stepDef.CucumberTest" time="5.914"/>
+  <testcase name="Test the Checkout button functionality" classname="stepDef.CucumberTest" time="5.825"/>
+  <testcase name="Test the Cancel button functionality" classname="stepDef.CucumberTest" time="5.75"/>
+  <testcase name="Test the Continue button functionality" classname="stepDef.CucumberTest" time="5.943"/>
+  <testcase name="Test to checkout without filling in names" classname="stepDef.CucumberTest" time="5.893"/>
+  <testcase name="Test to checkout without filling in zip code" classname="stepDef.CucumberTest" time="5.908"/>
+  <testcase name="Test the Finish button functionality" classname="stepDef.CucumberTest" time="7.145"/>
+  <testcase name="Test the Back Home button" classname="stepDef.CucumberTest" time="5.951"/>
+  <testcase name="Test login web normal" classname="stepDef.CucumberTest" time="6.747"/>
+  <testcase name="Test login web with locked out user" classname="stepDef.CucumberTest" time="6.112"/>
+  <testcase name="Test login web with an invalid username" classname="stepDef.CucumberTest" time="9.46"/>
+  <testcase name="Test login web with an invalid password" classname="stepDef.CucumberTest" time="5.64"/>
+  <testcase name="Test login web without a username" classname="stepDef.CucumberTest" time="5.972"/>
+  <testcase name="Test login web without a password" classname="stepDef.CucumberTest" time="5.699"/>
+  <testcase name="Test login web with a masked password" classname="stepDef.CucumberTest" time="5.605"/>
+  <testcase name="Test the product display page for standard user" classname="stepDef.CucumberTest" time="5.944"/>
+  <testcase name="Test the functionality of add to cart button" classname="stepDef.CucumberTest" time="5.713"/>
+  <testcase name="Test the functionality of remove button" classname="stepDef.CucumberTest" time="5.822"/>
+  <testcase name="Test the functionality of the social media buttons" classname="stepDef.CucumberTest" time="6.821"/>
+  <testcase name="Test the functionality of the three lines on the sidebar" classname="stepDef.CucumberTest" time="5.672"/>
+  <testcase name="Test the functionality of the &quot;All Items&quot; menu on the sidebar" classname="stepDef.CucumberTest" time="5.787"/>
+  <testcase name="Test the functionality of the &quot;About&quot; menu on the sidebar" classname="stepDef.CucumberTest" time="8.014"/>
+  <testcase name="Test the functionality of the &quot;Reset App State&quot; menu on the sidebar" classname="stepDef.CucumberTest" time="7.418"/>
+  <testcase name="Test the functionality of the &quot;Logout&quot; menu on the sidebar" classname="stepDef.CucumberTest" time="6.769"/>
+  <testcase name="Test the functionality of the A-Z sort menu" classname="stepDef.CucumberTest" time="7.204"/>
+  <testcase name="Test the functionality of the Z-A sort menu" classname="stepDef.CucumberTest" time="5.695"/>
+  <testcase name="Test the functionality of the &quot;Price low to high&quot; menu" classname="stepDef.CucumberTest" time="6.871"/>
+  <testcase name="Test the functionality of the &quot;Price high to low&quot; menu" classname="stepDef.CucumberTest" time="6.792"/>
+  <testcase name="Test &quot;Sauce Labs Backpack&quot; display page" classname="stepDef.CucumberTest" time="7.249"/>
+  <testcase name="Test the functionality of the &quot;Add to cart&quot; button in &quot;Sauce Labs Backpack&quot; display page" classname="stepDef.CucumberTest" time="5.709"/>
+  <testcase name="Test the functionality of the &quot;Remove&quot; button in &quot;Sauce Labs Backpack&quot; display page" classname="stepDef.CucumberTest" time="6.764"/>
+  <testcase name="Test the product details of &quot;Sauce Labs Bike Light&quot;" classname="stepDef.CucumberTest" time="6.654"/>
+  <testcase name="Test the functionality of the &quot;Add to cart&quot; button in &quot;Sauce Labs Bike Light&quot; display page" classname="stepDef.CucumberTest" time="5.734"/>
+  <testcase name="Test the functionality of the &quot;Remove&quot; button in &quot;Sauce Labs Bike Light&quot; display page" classname="stepDef.CucumberTest" time="5.81"/>
+  <testcase name="Test the product details of &quot;Sauce Labs Bolt T-Shirt&quot;" classname="stepDef.CucumberTest" time="6.968"/>
+  <testcase name="Test the functionality of the &quot;Add to cart&quot; button in &quot;Sauce Labs Bolt T-Shirt&quot; display page" classname="stepDef.CucumberTest" time="5.708"/>
+  <testcase name="Test the functionality of the &quot;Remove&quot; button in &quot;Sauce Labs Bolt T-Shirt&quot; display page" classname="stepDef.CucumberTest" time="7.014"/>
+  <testcase name="Test the product details of &quot;Sauce Labs Fleece Jacket&quot;" classname="stepDef.CucumberTest" time="5.702"/>
+  <testcase name="Test the functionality of the &quot;Add to cart&quot; button in &quot;Sauce Labs Fleece Jacket&quot; display page" classname="stepDef.CucumberTest" time="7.056"/>
+  <testcase name="Test the functionality of the &quot;Remove&quot; button in &quot;Sauce Labs Fleece Jacket&quot; display page" classname="stepDef.CucumberTest" time="5.719"/>
+  <testcase name="Test the product details of &quot;Sauce Labs Onesie&quot;" classname="stepDef.CucumberTest" time="5.65"/>
+  <testcase name="Test the functionality of the &quot;Add to cart&quot; button in &quot;Sauce Labs Onesie&quot; display page" classname="stepDef.CucumberTest" time="7.21"/>
+  <testcase name="Test the functionality of the &quot;Remove&quot; button in &quot;Sauce Labs Onesie&quot; display page" classname="stepDef.CucumberTest" time="7.561"/>
+  <testcase name="Test the product details of &quot;Test.allTheThings() T-Shirt (Red)&quot;" classname="stepDef.CucumberTest" time="5.906"/>
+  <testcase name="Test the functionality of the &quot;Add to cart&quot; button in &quot;Test.allTheThings() T-Shirt (Red)&quot; display page" classname="stepDef.CucumberTest" time="5.699"/>
+  <testcase name="Test the functionality of the &quot;Remove&quot; button in &quot;Test.allTheThings() T-Shirt (Red)&quot; display page" classname="stepDef.CucumberTest" time="6.813"/>
+  <testcase name="Test the product display page for problem user" classname="stepDef.CucumberTest" time="5.636"/>
+  <testcase name="Test the product display page for visual user" classname="stepDef.CucumberTest" time="6.678"/>
+  <testcase name="Test the expired account login session" classname="stepDef.CucumberTest" time="6.611"/>
+  <system-out><![CDATA[
+@web
+Scenario: Test the Remove button functionality        # src/test/resources/features/CartWeb.feature:4
+  Given open web login page                           # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"            # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"             # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                        # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage    # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                         # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"  # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page           # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Remove button               # stepDef.WebStep.userWillClickTheRemoveButton()
+  Then the order detail of the product will disappear # stepDef.WebStep.theOrderDetailOfTheProductWillDisappear()
+
+@web
+Scenario: Test the Continue Shopping button functionality # src/test/resources/features/CartWeb.feature:18
+  Given open web login page                               # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                 # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                            # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage        # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                             # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"      # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                    # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page               # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Continue Shopping button        # stepDef.WebStep.userWillClickTheContinueShoppingButton()
+  Then user will be directed to the product display page  # stepDef.WebStep.userWillBeDirectedToTheProductDisplayPage()
+
+@web
+Scenario: Test the Checkout button functionality     # src/test/resources/features/CartWeb.feature:32
+  Given open web login page                          # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"           # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"            # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                       # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage   # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                        # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1" # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon               # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page          # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button            # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data   # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+
+@web
+Scenario: Test the Cancel button functionality       # src/test/resources/features/CheckoutWeb.feature:4
+  Given open web login page                          # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"           # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"            # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                       # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage   # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                        # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1" # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon               # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page          # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button            # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data   # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+  And user will click the Cancel button              # stepDef.WebStep.userWillClickTheCancelButton()
+  Then user will see the order details page          # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+
+@web
+Scenario: Test the Continue button functionality            # src/test/resources/features/CheckoutWeb.feature:20
+  Given open web login page                                 # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                  # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                   # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                              # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage          # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                               # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"        # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                      # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page                 # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button                   # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data          # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+  And user will fill in "Vitri" in first name               # stepDef.WebStep.userWillFillInInFirstName(java.lang.String)
+  And user will fill in "Lukito" in last name               # stepDef.WebStep.userWillFillInInLastName(java.lang.String)
+  And user will fill in "12345" in zip code                 # stepDef.WebStep.userWillFillInInZipCode(java.lang.String)
+  And user will click the Continue button                   # stepDef.WebStep.userWillClickTheContinueButton()
+  Then user will be directed to the order confirmation page # stepDef.WebStep.userWillBeDirectedToTheOrderConfirmationPage()
+
+@web
+Scenario: Test to checkout without filling in names         # src/test/resources/features/CheckoutWeb.feature:39
+  Given open web login page                                 # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                  # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                   # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                              # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage          # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                               # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"        # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                      # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page                 # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button                   # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data          # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+  And user will fill in "" in first name                    # stepDef.WebStep.userWillFillInInFirstName(java.lang.String)
+  And user will fill in "" in last name                     # stepDef.WebStep.userWillFillInInLastName(java.lang.String)
+  And user will fill in "12345" in zip code                 # stepDef.WebStep.userWillFillInInZipCode(java.lang.String)
+  And user will click the Continue button                   # stepDef.WebStep.userWillClickTheContinueButton()
+  Then user will see error message "First Name is required" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test to checkout without filling in zip code       # src/test/resources/features/CheckoutWeb.feature:58
+  Given open web login page                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                               # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage           # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                                # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"         # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                       # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page                  # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button                    # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data           # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+  And user will fill in "Vitri" in first name                # stepDef.WebStep.userWillFillInInFirstName(java.lang.String)
+  And user will fill in "Lukito" in last name                # stepDef.WebStep.userWillFillInInLastName(java.lang.String)
+  And user will fill in "" in zip code                       # stepDef.WebStep.userWillFillInInZipCode(java.lang.String)
+  And user will click the Continue button                    # stepDef.WebStep.userWillClickTheContinueButton()
+  Then user will see error message "Postal Code is required" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test the Finish button functionality               # src/test/resources/features/CheckoutWeb.feature:77
+  Given open web login page                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                               # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage           # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                                # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"         # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                       # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page                  # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button                    # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data           # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+  And user will fill in "Vitri" in first name                # stepDef.WebStep.userWillFillInInFirstName(java.lang.String)
+  And user will fill in "Lukito" in last name                # stepDef.WebStep.userWillFillInInLastName(java.lang.String)
+  And user will fill in "12345" in zip code                  # stepDef.WebStep.userWillFillInInZipCode(java.lang.String)
+  And user will click the Continue button                    # stepDef.WebStep.userWillClickTheContinueButton()
+  Then user will be directed to the order confirmation page  # stepDef.WebStep.userWillBeDirectedToTheOrderConfirmationPage()
+  And user will click the Finish button                      # stepDef.WebStep.userWillClickTheFinishButton()
+  Then user will be directed to the successful purchase page # stepDef.WebStep.userWillBeDirectedToTheSuccessfulPurchasePage()
+
+@web
+Scenario: Test the Back Home button                          # src/test/resources/features/CheckoutWeb.feature:98
+  Given open web login page                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                               # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage           # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                                # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "1"         # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click on the cart icon                       # stepDef.WebStep.userWillClickOnTheCartIcon()
+  Then user will see the order details page                  # stepDef.WebStep.userWillSeeTheOrderDetailsPage()
+  And user will click the Checkout button                    # stepDef.WebStep.userWillClickTheCheckoutButton()
+  Then user will be directed to fill in their data           # stepDef.WebStep.userWillBeDirectedToFillInTheirData()
+  And user will fill in "Vitri" in first name                # stepDef.WebStep.userWillFillInInFirstName(java.lang.String)
+  And user will fill in "Lukito" in last name                # stepDef.WebStep.userWillFillInInLastName(java.lang.String)
+  And user will fill in "12345" in zip code                  # stepDef.WebStep.userWillFillInInZipCode(java.lang.String)
+  And user will click the Continue button                    # stepDef.WebStep.userWillClickTheContinueButton()
+  Then user will be directed to the order confirmation page  # stepDef.WebStep.userWillBeDirectedToTheOrderConfirmationPage()
+  And user will click the Finish button                      # stepDef.WebStep.userWillClickTheFinishButton()
+  Then user will be directed to the successful purchase page # stepDef.WebStep.userWillBeDirectedToTheSuccessfulPurchasePage()
+  And user clicks the Back Home button                       # stepDef.WebStep.userClicksTheBackHomeButton()
+  Then user will be directed to the product display page     # stepDef.WebStep.userWillBeDirectedToTheProductDisplayPage()
+
+@web
+Scenario: Test login web normal                    # src/test/resources/features/LoginWeb.feature:4
+  Given open web login page                        # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"         # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"          # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                     # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+
+@web
+Scenario: Test login web with locked out user                 # src/test/resources/features/LoginWeb.feature:12
+  Given open web login page                                   # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "locked_out_user"                  # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                     # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                # stepDef.WebStep.userClicksLoginButton()
+  Then user will see error message "user has been locked out" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test login web with an invalid username                       # src/test/resources/features/LoginWeb.feature:20
+  Given open web login page                                             # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user123"                           # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                               # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                          # stepDef.WebStep.userClicksLoginButton()
+  Then user will see error message "Username and password do not match" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test login web with an invalid password                       # src/test/resources/features/LoginWeb.feature:28
+  Given open web login page                                             # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                              # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce123"                            # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                          # stepDef.WebStep.userClicksLoginButton()
+  Then user will see error message "Username and password do not match" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test login web without a username               # src/test/resources/features/LoginWeb.feature:36
+  Given open web login page                               # stepDef.WebStep.openWebLoginPage()
+  And user inputs username ""                             # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                 # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                            # stepDef.WebStep.userClicksLoginButton()
+  Then user will see error message "Username is required" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test login web without a password               # src/test/resources/features/LoginWeb.feature:44
+  Given open web login page                               # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password ""                             # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                            # stepDef.WebStep.userClicksLoginButton()
+  Then user will see error message "Password is required" # stepDef.WebStep.userWillSeeErrorMessage(java.lang.String)
+
+@web
+Scenario: Test login web with a masked password # src/test/resources/features/LoginWeb.feature:52
+  Given open web login page                     # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"      # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"       # stepDef.WebStep.userInputsPassword(java.lang.String)
+  Then password will be masked                  # stepDef.WebStep.passwordWillBeMasked()
+
+@web
+Scenario: Test the product display page for standard user                    # src/test/resources/features/ProductWeb.feature:6
+  Given open web login page                                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                               # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage                           # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  Then verify that the details of the first product are displayed correctly  # stepDef.WebStep.verifyThatTheDetailsOfTheFirstProductAreDisplayedCorrectly()
+  Then verify that the details of the second product are displayed correctly # stepDef.WebStep.verifyThatTheDetailsOfTheSecondProductAreDisplayedCorrectly()
+  Then verify that the details of the third product are displayed correctly  # stepDef.WebStep.verifyThatTheDetailsOfTheThirdProductAreDisplayedCorrectly()
+  Then verify that the details of the fourth product are displayed correctly # stepDef.WebStep.verifyThatTheDetailsOfTheFourthProductAreDisplayedCorrectly()
+  Then verify that the details of the fifth product are displayed correctly  # stepDef.WebStep.verifyThatTheDetailsOfTheFifthProductAreDisplayedCorrectly()
+  Then verify that the details of the sixth product are displayed correctly  # stepDef.WebStep.verifyThatTheDetailsOfTheSixthProductAreDisplayedCorrectly()
+
+@web
+Scenario: Test the functionality of add to cart button # src/test/resources/features/ProductWeb.feature:20
+  Given open web login page                            # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"             # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"              # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                         # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage      # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                          # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                          # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                          # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                          # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "4"   # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of remove button    # src/test/resources/features/ProductWeb.feature:33
+  Given open web login page                          # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"           # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"            # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                       # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage    # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                        # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                        # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                        # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                        # stepDef.WebStep.userAddsItemsToCart()
+  Then verify that the items in the cart matches "4" # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user removes item from cart                    # stepDef.WebStep.userRemovesItemFromCart()
+  Then verify that the items in the cart matches "3" # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the social media buttons # src/test/resources/features/ProductWeb.feature:48
+  Given open web login page                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                               # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage            # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the social media buttons               # stepDef.WebStep.userWillClickTheSocialMediaButtons()
+  Then user will be directed to each social media page       # stepDef.WebStep.userWillBeDirectedToEachSocialMediaPage()
+
+@web
+Scenario: Test the functionality of the three lines on the sidebar # src/test/resources/features/ProductWeb.feature:58
+  Given open web login page                                        # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                         # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                          # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                     # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                  # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the three lines on the sidebar               # stepDef.WebStep.userWillClickTheThreeLinesOnTheSidebar()
+  Then user will see the Logout menu                               # stepDef.WebStep.userWillSeeTheLogoutMenu()
+
+@web
+Scenario: Test the functionality of the "All Items" menu on the sidebar # src/test/resources/features/ProductWeb.feature:68
+  Given open web login page                                             # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                              # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                               # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                          # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                       # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the three lines on the sidebar                    # stepDef.WebStep.userWillClickTheThreeLinesOnTheSidebar()
+  And user will see the Logout menu                                     # stepDef.WebStep.userWillSeeTheLogoutMenu()
+  And user will click All Items                                         # stepDef.WebStep.userWillClickAllItems()
+  Then user will be directed to the product display page                # stepDef.WebStep.userWillBeDirectedToTheProductDisplayPage()
+
+@web
+Scenario: Test the functionality of the "About" menu on the sidebar # src/test/resources/features/ProductWeb.feature:80
+  Given open web login page                                         # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                          # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                           # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                      # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                   # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the three lines on the sidebar                # stepDef.WebStep.userWillClickTheThreeLinesOnTheSidebar()
+  And user will see the Logout menu                                 # stepDef.WebStep.userWillSeeTheLogoutMenu()
+  And user will click About                                         # stepDef.WebStep.userWillClickAbout()
+  Then user will be directed to the About page                      # stepDef.WebStep.userWillBeDirectedToTheAboutPage()
+
+@web
+Scenario: Test the functionality of the "Reset App State" menu on the sidebar # src/test/resources/features/ProductWeb.feature:92
+  Given open web login page                                                   # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                    # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                     # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                             # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user adds items to cart                                                 # stepDef.WebStep.userAddsItemsToCart()
+  And user adds items to cart                                                 # stepDef.WebStep.userAddsItemsToCart()
+  And user will click the three lines on the sidebar                          # stepDef.WebStep.userWillClickTheThreeLinesOnTheSidebar()
+  And user will see the Logout menu                                           # stepDef.WebStep.userWillSeeTheLogoutMenu()
+  And user will click Reset App State                                         # stepDef.WebStep.userWillClickResetAppState()
+  Then the cart will be reset                                                 # stepDef.WebStep.theCartWillBeReset()
+
+@web
+Scenario: Test the functionality of the "Logout" menu on the sidebar # src/test/resources/features/ProductWeb.feature:106
+  Given open web login page                                          # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                           # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                            # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                       # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                    # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the three lines on the sidebar                 # stepDef.WebStep.userWillClickTheThreeLinesOnTheSidebar()
+  And user will see the Logout menu                                  # stepDef.WebStep.userWillSeeTheLogoutMenu()
+  And user will click Logout                                         # stepDef.WebStep.userWillClickLogout()
+  Then user will be back to the login page                           # stepDef.WebStep.userWillBeBackToTheLoginPage()
+
+@web
+Scenario: Test the functionality of the A-Z sort menu             # src/test/resources/features/ProductWeb.feature:118
+  Given open web login page                                       # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                        # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                         # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                    # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                 # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will choose to sort the products from A-Z              # stepDef.WebStep.userWillChooseToSortTheProductsFromAZ()
+  Then products will be displayed in ascending alphabetical order # stepDef.WebStep.productsWillBeDisplayedInAscendingAlphabeticalOrder()
+
+@web
+Scenario: Test the functionality of the Z-A sort menu              # src/test/resources/features/ProductWeb.feature:128
+  Given open web login page                                        # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                         # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                          # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                     # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                  # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will choose to sort the products from Z-A               # stepDef.WebStep.userWillChooseToSortTheProductsFromZA()
+  Then products will be displayed in descending alphabetical order # stepDef.WebStep.productsWillBeDisplayedInDescendingAlphabeticalOrder()
+
+@web
+Scenario: Test the functionality of the "Price low to high" menu             # src/test/resources/features/ProductWeb.feature:138
+  Given open web login page                                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                               # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                            # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will choose to sort the products based on price, from low to high # stepDef.WebStep.userWillChooseToSortTheProductsBasedOnPriceFromLowToHigh()
+  Then products will be sorted from the lowest to the highest price          # stepDef.WebStep.productsWillBeSortedFromTheLowestToTheHighestPrice()
+
+@web
+Scenario: Test the functionality of the "Price high to low" menu             # src/test/resources/features/ProductWeb.feature:148
+  Given open web login page                                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                   # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                               # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                            # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will choose to sort the products based on price, from high to low # stepDef.WebStep.userWillChooseToSortTheProductsBasedOnPriceFromHighToLow()
+  Then products will be sorted from the highest to the lowest price          # stepDef.WebStep.productsWillBeSortedFromTheHighestToTheLowestPrice()
+
+@web
+Scenario: Test "Sauce Labs Backpack" display page                     # src/test/resources/features/ProductWeb.feature:158
+  Given open web login page                                           # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                            # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                             # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                        # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                     # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Backpack                # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBackpack()
+  Then user will see Sauce Labs Backpack photo, description and image # stepDef.WebStep.userWillSeeSauceLabsBackpackPhotoDescriptionAndImage()
+
+@web
+Scenario: Test the functionality of the "Add to cart" button in "Sauce Labs Backpack" display page # src/test/resources/features/ProductWeb.feature:168
+  Given open web login page                                                                        # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                         # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                          # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                     # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                  # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Backpack                                             # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBackpack()
+  Then user will see Sauce Labs Backpack photo, description and image                              # stepDef.WebStep.userWillSeeSauceLabsBackpackPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                  # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                               # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the "Remove" button in "Sauce Labs Backpack" display page # src/test/resources/features/ProductWeb.feature:180
+  Given open web login page                                                                   # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                    # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                     # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                             # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Backpack                                        # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBackpack()
+  Then user will see Sauce Labs Backpack photo, description and image                         # stepDef.WebStep.userWillSeeSauceLabsBackpackPhotoDescriptionAndImage()
+  And user will click Add to cart                                                             # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                          # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click Remove                                                                  # stepDef.WebStep.userWillClickRemove()
+  Then verify that the cart is empty                                                          # stepDef.WebStep.verifyThatTheCartIsEmpty()
+
+@web
+Scenario: Test the product details of "Sauce Labs Bike Light"           # src/test/resources/features/ProductWeb.feature:194
+  Given open web login page                                             # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                              # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                               # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                          # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                       # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Bike Light                # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBikeLight()
+  Then user will see Sauce Labs Bike Light photo, description and image # stepDef.WebStep.userWillSeeSauceLabsBikeLightPhotoDescriptionAndImage()
+
+@web
+Scenario: Test the functionality of the "Add to cart" button in "Sauce Labs Bike Light" display page # src/test/resources/features/ProductWeb.feature:204
+  Given open web login page                                                                          # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                           # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                            # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                       # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                    # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Bike Light                                             # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBikeLight()
+  Then user will see Sauce Labs Bike Light photo, description and image                              # stepDef.WebStep.userWillSeeSauceLabsBikeLightPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                    # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                                 # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the "Remove" button in "Sauce Labs Bike Light" display page # src/test/resources/features/ProductWeb.feature:216
+  Given open web login page                                                                     # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                      # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                       # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                  # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                               # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Bike Light                                        # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBikeLight()
+  Then user will see Sauce Labs Bike Light photo, description and image                         # stepDef.WebStep.userWillSeeSauceLabsBikeLightPhotoDescriptionAndImage()
+  And user will click Add to cart                                                               # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                            # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click Remove                                                                    # stepDef.WebStep.userWillClickRemove()
+  Then verify that the cart is empty                                                            # stepDef.WebStep.verifyThatTheCartIsEmpty()
+
+@web
+Scenario: Test the product details of "Sauce Labs Bolt T-Shirt"           # src/test/resources/features/ProductWeb.feature:230
+  Given open web login page                                               # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                 # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                            # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                         # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Bolt T-Shirt                # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBoltTShirt()
+  Then user will see Sauce Labs Bolt T-Shirt photo, description and image # stepDef.WebStep.userWillSeeSauceLabsBoltTShirtPhotoDescriptionAndImage()
+
+@web
+Scenario: Test the functionality of the "Add to cart" button in "Sauce Labs Bolt T-Shirt" display page # src/test/resources/features/ProductWeb.feature:240
+  Given open web login page                                                                            # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                             # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                              # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                         # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                      # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Bolt T-Shirt                                             # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBoltTShirt()
+  Then user will see Sauce Labs Bolt T-Shirt photo, description and image                              # stepDef.WebStep.userWillSeeSauceLabsBoltTShirtPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                      # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                                   # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the "Remove" button in "Sauce Labs Bolt T-Shirt" display page # src/test/resources/features/ProductWeb.feature:252
+  Given open web login page                                                                       # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                        # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                         # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                    # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                 # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Bolt T-Shirt                                        # stepDef.WebStep.userWillClickTheTitleOfSauceLabsBoltTShirt()
+  Then user will see Sauce Labs Bolt T-Shirt photo, description and image                         # stepDef.WebStep.userWillSeeSauceLabsBoltTShirtPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                 # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                              # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click Remove                                                                      # stepDef.WebStep.userWillClickRemove()
+  Then verify that the cart is empty                                                              # stepDef.WebStep.verifyThatTheCartIsEmpty()
+
+@web
+Scenario: Test the product details of "Sauce Labs Fleece Jacket"           # src/test/resources/features/ProductWeb.feature:266
+  Given open web login page                                                # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                 # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                  # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                             # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                          # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Fleece Jacket                # stepDef.WebStep.userWillClickTheTitleOfSauceLabsFleeceJacket()
+  Then user will see Sauce Labs Fleece Jacket photo, description and image # stepDef.WebStep.userWillSeeSauceLabsFleeceJacketPhotoDescriptionAndImage()
+
+@web
+Scenario: Test the functionality of the "Add to cart" button in "Sauce Labs Fleece Jacket" display page # src/test/resources/features/ProductWeb.feature:276
+  Given open web login page                                                                             # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                              # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                               # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                          # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                       # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Fleece Jacket                                             # stepDef.WebStep.userWillClickTheTitleOfSauceLabsFleeceJacket()
+  Then user will see Sauce Labs Fleece Jacket photo, description and image                              # stepDef.WebStep.userWillSeeSauceLabsFleeceJacketPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                       # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                                    # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the "Remove" button in "Sauce Labs Fleece Jacket" display page # src/test/resources/features/ProductWeb.feature:288
+  Given open web login page                                                                        # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                         # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                          # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                     # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                  # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Fleece Jacket                                        # stepDef.WebStep.userWillClickTheTitleOfSauceLabsFleeceJacket()
+  Then user will see Sauce Labs Fleece Jacket photo, description and image                         # stepDef.WebStep.userWillSeeSauceLabsFleeceJacketPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                  # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                               # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click Remove                                                                       # stepDef.WebStep.userWillClickRemove()
+  Then verify that the cart is empty                                                               # stepDef.WebStep.verifyThatTheCartIsEmpty()
+
+@web
+Scenario: Test the product details of "Sauce Labs Onesie"                  # src/test/resources/features/ProductWeb.feature:302
+  Given open web login page                                                # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                 # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                  # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                             # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                          # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Onesie                       # stepDef.WebStep.userWillClickTheTitleOfSauceLabsOnesie()
+  Then user will see Sauce Labs Fleece Onesie photo, description and image # stepDef.WebStep.userWillSeeSauceLabsFleeceOnesiePhotoDescriptionAndImage()
+
+@web
+Scenario: Test the functionality of the "Add to cart" button in "Sauce Labs Onesie" display page # src/test/resources/features/ProductWeb.feature:312
+  Given open web login page                                                                      # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                       # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                        # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                   # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Onesie                                             # stepDef.WebStep.userWillClickTheTitleOfSauceLabsOnesie()
+  Then user will see Sauce Labs Fleece Onesie photo, description and image                       # stepDef.WebStep.userWillSeeSauceLabsFleeceOnesiePhotoDescriptionAndImage()
+  And user will click Add to cart                                                                # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                             # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the "Remove" button in "Sauce Labs Onesie" display page # src/test/resources/features/ProductWeb.feature:324
+  Given open web login page                                                                 # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                  # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                   # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                              # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                           # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Sauce Labs Onesie                                        # stepDef.WebStep.userWillClickTheTitleOfSauceLabsOnesie()
+  Then user will see Sauce Labs Fleece Onesie photo, description and image                  # stepDef.WebStep.userWillSeeSauceLabsFleeceOnesiePhotoDescriptionAndImage()
+  And user will click Add to cart                                                           # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                        # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click Remove                                                                # stepDef.WebStep.userWillClickRemove()
+  Then verify that the cart is empty                                                        # stepDef.WebStep.verifyThatTheCartIsEmpty()
+
+@web
+Scenario: Test the product details of "Test.allTheThings() T-Shirt (Red)"       # src/test/resources/features/ProductWeb.feature:338
+  Given open web login page                                                     # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                      # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                       # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                  # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                               # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Test allTheThings T-Shirt Red                # stepDef.WebStep.userWillClickTheTitleOfTestAllTheThingsTShirtRed()
+  Then user will see Test allTheThings T-Shirt Red photo, description and image # stepDef.WebStep.userWillSeeTestAllTheThingsTShirtRedPhotoDescriptionAndImage()
+
+@web
+Scenario: Test the functionality of the "Add to cart" button in "Test.allTheThings() T-Shirt (Red)" display page # src/test/resources/features/ProductWeb.feature:348
+  Given open web login page                                                                                      # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                                       # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                                        # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                                   # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                                # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Test allTheThings T-Shirt Red                                                 # stepDef.WebStep.userWillClickTheTitleOfTestAllTheThingsTShirtRed()
+  Then user will see Test allTheThings T-Shirt Red photo, description and image                                  # stepDef.WebStep.userWillSeeTestAllTheThingsTShirtRedPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                                # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                                             # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+
+@web
+Scenario: Test the functionality of the "Remove" button in "Test.allTheThings() T-Shirt (Red)" display page # src/test/resources/features/ProductWeb.feature:360
+  Given open web login page                                                                                 # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"                                                                  # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                                                                   # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                                                              # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                                                           # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user will click the title of Test allTheThings T-Shirt Red                                            # stepDef.WebStep.userWillClickTheTitleOfTestAllTheThingsTShirtRed()
+  Then user will see Test allTheThings T-Shirt Red photo, description and image                             # stepDef.WebStep.userWillSeeTestAllTheThingsTShirtRedPhotoDescriptionAndImage()
+  And user will click Add to cart                                                                           # stepDef.WebStep.userWillClickAddToCart()
+  Then verify that the items in the cart matches "1"                                                        # stepDef.WebStep.verifyThatTheItemsInTheCartMatches(java.lang.String)
+  And user will click Remove                                                                                # stepDef.WebStep.userWillClickRemove()
+  Then verify that the cart is empty                                                                        # stepDef.WebStep.verifyThatTheCartIsEmpty()
+
+@web
+Scenario: Test the product display page for problem user     # src/test/resources/features/ProductWeb.feature:376
+  Given open web login page                                  # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "problem_user"                    # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                    # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                               # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage            # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  Then the images for all products are displayed incorrectly # stepDef.WebStep.theImagesForAllProductsAreDisplayedIncorrectly()
+
+@web
+Scenario: Test the product display page for visual user           # src/test/resources/features/ProductWeb.feature:387
+  Given open web login page                                       # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "visual_user"                          # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"                         # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                                    # stepDef.WebStep.userClicksLoginButton()
+  And user will see the cart icon in the homepage                 # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  Then the image for Sauce Labs Backpack is incorrectly displayed # stepDef.WebStep.theImageForSauceLabsBackpackIsIncorrectlyDisplayed()
+  Then the prices of all products are incorrectly displayed       # stepDef.WebStep.thePricesOfAllProductsAreIncorrectlyDisplayed()
+
+@web
+Scenario: Test the expired account login session   # src/test/resources/features/SecurityWeb.feature:4
+  Given open web login page                        # stepDef.WebStep.openWebLoginPage()
+  And user inputs username "standard_user"         # stepDef.WebStep.userInputsUsername(java.lang.String)
+  And user inputs password "secret_sauce"          # stepDef.WebStep.userInputsPassword(java.lang.String)
+  And user clicks login button                     # stepDef.WebStep.userClicksLoginButton()
+  Then user will see the cart icon in the homepage # stepDef.WebStep.userWillSeeTheCartIconInTheHomepage()
+  And user is not active for 5 minutes             # stepDef.WebStep.userIsNotActiveFor5Minutes()
+  Then user will be back to the login page         # stepDef.WebStep.userWillBeBackToTheLoginPage()
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
